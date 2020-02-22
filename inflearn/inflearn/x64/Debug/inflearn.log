@@ -1,6 +1,2 @@
-﻿  ex15.cpp
-C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex15.cpp(20,25): warning C4311: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 포인터가 잘립니다.
-C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex15.cpp(20,25): warning C4302: '형식 캐스트': 'int (*)[10]'에서 'int'(으)로 잘립니다.
-C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex15.cpp(21,28): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
-C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex15.cpp(21,28): warning C4302: '형식 캐스트': 'int *'에서 'int'(으)로 잘립니다.
+﻿  ex29_배열과_포인터_종합문제_02.cpp
   inflearn.vcxproj -> C:\Users\koko8\Documents\git-project\cpp_study\inflearn\x64\Debug\inflearn.exe

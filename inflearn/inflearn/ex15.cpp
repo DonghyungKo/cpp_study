@@ -14,7 +14,7 @@ int main(void) {
 	std::cout << *aPtr << std::endl;
 
 	// 배열과 포인터
-	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int arr[10] = { 1,2,3 };
 
 	// 배열 변수의 포인터는 배열의 첫번째 원소를 가리킴
 	std::cout << (int)&arr << std::endl;
@@ -40,5 +40,10 @@ int main(void) {
 		std::cout << *ptr << std::endl;
 	}
 
+	/*
+		1. ptr == &ptr[0]
+		2. *ptr == ptr[0]
+		3. ptr + 1 == ptr에 sizeof(*ptr)을 더한 값
+	*/
 	return 0;
 }
