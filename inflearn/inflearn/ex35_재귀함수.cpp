@@ -1,14 +1,18 @@
 // Àç±ÍÇÔ¼ö
-
+// ÆÑÅä¸®¾ó
+// n! = n * (n-1)!
 #include <stdio.h>
 #include <iostream>
 
-void rec(int n) {
-	std::cout << "n :" << n << std::endl;
-	rec(n+1);
+int factorial(int n) {
+	if (n < 2) {
+		return 1;
+	}
+	return n * factorial(n - 1);
 }
-
 int main() {
-	int n = 0;
-	rec(n);
+	int n = 5;
+	int result = factorial(n);
+
+	std::cout << n << "! : " << result << std::endl;
 }
