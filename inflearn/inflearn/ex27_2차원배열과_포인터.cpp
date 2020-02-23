@@ -17,7 +17,7 @@ int main(void) {
 	std::cout << (int)arr << std::endl;
 	std::cout << (int)(arr+1) << std::endl;
 
-	std::cout << sizeof(arr) << std::endl;
+	std::cout << sizeof(arr) << std::endl; // &arr[0]
 	std::cout << sizeof(arr[0]) << std::endl;
 	std::cout << sizeof(arr[0][0]) << std::endl;
 	
