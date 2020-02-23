@@ -1,2 +1,3 @@
-﻿  ex31_함수.cpp
+﻿  ex35_재귀함수.cpp
+C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex35_재귀함수.cpp(9): warning C4717: 'rec': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
   inflearn.vcxproj -> C:\Users\koko8\Documents\git-project\cpp_study\inflearn\x64\Debug\inflearn.exe
