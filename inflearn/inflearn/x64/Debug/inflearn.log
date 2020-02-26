@@ -1,2 +1,3 @@
-﻿  ex40_구조체와_메모리.cpp
+﻿  ex47_파일_입출력.cpp
+C:\Users\koko8\Documents\git-project\cpp_study\inflearn\inflearn\ex47_파일_입출력.cpp(7,13): warning C4101: 'out' :참조되지 않은 지역 변수입니다.
   inflearn.vcxproj -> C:\Users\koko8\Documents\git-project\cpp_study\inflearn\x64\Debug\inflearn.exe
