@@ -4,19 +4,18 @@
 
 int main() {
 	
-	FILE* in, *out; // 스트림: 파일을 가르키는 포인터
-	 
-	in = fopen("input.txt", "r");
-	int n;
-	if (in == NULL) { //예외처리
+	FILE* in; // 스트림: 파일을 가르키는 포인터
+	in = fopen("ex47_파일_입출력.cpp", "r");
+	
+	if (in == NULL) { //nullptr error handling
 		std::cout << "NULL Pointer ERROR";
 		return 1;
 	}
-	fscanf(in, "%d", &n);
-	fclose(in);
 
-	//out = fopen("ex47_output.txt", "w");
-	//fprintf_s(out, "%d\n", n);
-
+	char ch;
+	while (fscanf(in, "%c", &ch) != EOF) { 
+		std::cout << ch ;
+	}
+	
 	return 0;
 }
