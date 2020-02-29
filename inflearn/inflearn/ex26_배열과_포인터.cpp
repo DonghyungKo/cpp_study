@@ -1,6 +1,6 @@
 /*
 	1. ptr == &ptr[0]
-	2. *ptr == ptr[0]
+	2. *ptr == *&ptr[0]== ptr[0]
 	3. ptr + 1 == ptr에 sizeof(*ptr)을 더한 값
 */
 

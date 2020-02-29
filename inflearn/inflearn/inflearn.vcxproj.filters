@@ -138,6 +138,15 @@
     <ClCompile Include="ex50_c++_스타일_기본문법.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex51_c++스타일_함수2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex51_c++스타일_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex52_c++스타일_프로그래밍_종합문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />

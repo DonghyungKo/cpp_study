@@ -14,16 +14,16 @@ int main(void) {
 		{4,5,6} 
 	};
 
-	std::cout << (int)arr << std::endl;
-	std::cout << (int)(arr+1) << std::endl;
+	std::cout << (int)arr << std::endl; // &arr[0] == {1,2,3} 배열의 첫 번째 원소의 메모리 주소
+	std::cout << (int)(arr+1) << std::endl; // +12, arr + sizeof(*(&arr[0]))
 
 	std::cout << sizeof(arr) << std::endl; // &arr[0]
-	std::cout << sizeof(arr[0]) << std::endl;
-	std::cout << sizeof(arr[0][0]) << std::endl;
+	std::cout << sizeof(arr[0]) << std::endl; // &(arr[0])[0]
+	std::cout << sizeof(arr[0][0]) << std::endl; //arr[0][0]
 	
 	std::cout << (int)(&arr) << std::endl;
 	std::cout << (int)(&arr[0]) << std::endl;
-	std::cout << (int)(&arr[0]) << std::endl;
+	std::cout << (int)(&arr[0][0]) << std::endl;
 
 	// 배열 포인터
 	
